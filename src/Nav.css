@@ -1,0 +1,24 @@
+
+.Nav {
+    display:grid;
+    place-items: left;
+    text-align: center;
+    margin-right: 4em;
+}
+
+@media (max-width: 600px) {
+    .Nav {
+        grid-template-columns: 160px;
+    }
+  }
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    align-items: center;
+}
+
+ul a {
+    text-decoration: none;
+}

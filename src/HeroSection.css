@@ -1,0 +1,69 @@
+
+.HeroSection{
+    display : grid;
+    grid-template-columns: repeat(6,1fr);
+    background-color: #495E57;
+    color: white;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.intro {
+    grid-column: 1/ span 2;
+    padding-left: 7em;
+    justify-content: left;
+}
+
+.photo {
+    grid-column: 3/ span 5;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+@media (max-width: 600px) {
+    .HeroSection {
+        grid-template-columns: 1fr,1fr;
+    }
+    .intro {
+        grid-row: 1/ span 1;
+        grid-column: 1/ span 1;
+    }
+    .photo {
+        grid-row: 1/ span 1;
+        grid-column: 1/ span 2;
+    }
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Markazi Text Medium';
+    color: #F4CE14;
+}
+
+h5{
+    margin-top: -40px;
+    font-size: 18px;
+    font-family:'Karla Regular';
+}
+
+p{
+    font-size: 16px;
+    font-family:'Karla';
+}
+
+button {
+    background-color: #F4CE14;
+    border-radius: 16px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:'Karla';
+    border-style: solid;
+}
+
+img {
+   border-radius: 16%;
+   width: 250px;
+   max-height: 250px;
+}

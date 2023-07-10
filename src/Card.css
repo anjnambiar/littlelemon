@@ -1,0 +1,49 @@
+.Card {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border-radius: 10px;
+    background-color: #EDEFEE;
+    margin: 10px;
+}
+
+#dish_image {
+    grid-column: 1/ span 2;
+}
+
+.dish {
+    grid-column: 1/ span 2;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.description {
+    grid-column: 1/ span 2;
+    font-family: 'Karla Regular';
+}
+
+.delivery {
+    grid-column: 1/ span 2;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.dishName {
+    font-family: 'Karla Regular';
+}
+
+.price {
+    font-family: 'Karla Light';
+    color: #EE9972;
+    padding-top: 5px;
+}
+
+.orderForDelivery {
+    font-family: 'Karla Regular';
+}
+
+#delivery_logo {
+    max-width: 20px;
+    max-height: 20px;
+    padding-top: 20px;
+}

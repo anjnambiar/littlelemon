@@ -1,8 +1,12 @@
+import './Header.css';
+import Nav from './Nav.js';
+import Logo from "./images/Logo.svg";
 
 function Header() {
     return (
         <div className="Header">
-            <img src="littlelemon/images/logo.png"/>
+            <img id="logo_id" src={Logo} alt="Logo"/>
+            <Nav className="navClass"/>
         </div>
     );
 }

@@ -1,0 +1,19 @@
+
+.Header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    place-items: left;
+    text-align: center;
+}
+
+#logo_id {
+    margin-left: -1em;
+}
+
+@media (max-width: 600px) {
+    .Header {
+        grid-template-columns: auto;
+        grid-template-rows: 100px ;
+    }
+}
