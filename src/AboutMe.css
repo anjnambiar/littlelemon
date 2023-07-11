@@ -1,0 +1,53 @@
+.AboutMe {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+
+.aboutSection {
+    grid-column: 1/ span 1;
+}
+
+.imageSection {
+    grid-column: 2/ span 2;
+    display: grid;
+    padding-top: 2em;
+}
+
+#about_h1 {
+    color: #495E57;
+    text-align: left;
+    padding-left: 0.8em;
+}
+
+#about_h5 {
+    color: #495E57;
+    text-align: left;
+    padding-left: 2em;
+}
+
+#Restaurant_description {
+    text-align: left;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+.owner_img{
+    border-radius: 0;
+    grid-row: 1/ 2;
+}
+
+#img_a{
+    grid-column: 1/ 3;
+    margin-top: 6em;
+    margin-left: 2em;
+    box-shadow: 5px 10px 20px #ccc;
+}
+
+#img_b {
+    grid-column:2/3;
+    margin-top: 1em;
+    margin-left: 4em;
+    box-shadow: 5px 10px 20px #ccc;
+}

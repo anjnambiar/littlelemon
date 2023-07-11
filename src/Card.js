@@ -10,10 +10,13 @@ function Card() {
                     <h4 class="dishName"><b>Greek Salad</b></h4>
                     <p class="price">$12.99</p>
                 </section>
-                <p class="description">Detailed description of Greek Salad</p>
+                <p class="description">The famous greek salad of crispy lettuce,
+                peppers, olives and our Chicago style feta cheese, garnished with
+                crunchy garlic and rosemary croutons.</p>
                 <section class="delivery">
-                    <h6 class="orderForDelivery"><b>Order for delivery</b></h6>
-                    <img id="delivery_logo"src={delivery} alt="delivery" />
+                    <button>Order for delivery</button>
+                    {/* <h6 class="orderForDelivery"><b>Order for delivery</b></h6>
+                    <img id="delivery_logo"src={delivery} alt="delivery" /> */}
                 </section>
             </div>
     );
