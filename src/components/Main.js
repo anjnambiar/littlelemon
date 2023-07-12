@@ -1,6 +1,6 @@
-import './Main.css';
-import HeroSection from './HeroSection';
-import Highlights from './Highlights';
+import '../css/Main.css';
+import HeroSection from './HeroSection.js';
+import Highlights from './Highlights.js';
 import Testimonials from './Testimonials.js';
 import AboutMe from './AboutMe';
 

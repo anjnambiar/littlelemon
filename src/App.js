@@ -1,13 +1,13 @@
-import './App.css';
-import Header from'./Header.js';
-import Main from './Main.js';
-import Footer from './Footer.js';
+import './css/App.css';
+import Header from './components/Header.js';
+import Main from './components/Main.js';
+import Footer from './components/Footer.js';
 import {Routes, Route, Router} from 'react-router-dom';
-import AboutMe from './AboutMe.js';
-import Menu from './Menu.js';
-import Reservation from './Reservation.js';
-import OrderOnline from './OrderOnline.js';
-import Login from './Login.js';
+import AboutMe from './components/AboutMe.js';
+import Menu from './components/Menu.js';
+import Reservation from './components/Reservation.js';
+import OrderOnline from './components/OrderOnline.js';
+import Login from './components/Login.js';
 
 function App() {
   return (

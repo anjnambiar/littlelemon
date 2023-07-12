@@ -1,5 +1,5 @@
-import logo_big from './images/logo_big.png';
-import './Footer.css';
+import logo_big from '../images/logo_big.png';
+import '../css/Footer.css';
 import {Link} from 'react-router-dom';
 
 function Footer() {

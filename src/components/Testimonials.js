@@ -1,5 +1,5 @@
 
-import "./Testimonials.css";
+import "../css/Testimonials.css";
 import {AiFillStar} from 'react-icons/ai';
 
 function Testimonials() {

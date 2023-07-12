@@ -1,6 +1,6 @@
-import MarioandAdrian_A from './images/MarioandAdrian_A.jpg';
-import MarioandAdrian_b from './images/MarioandAdrian_b.jpg';
-import './AboutMe.css';
+import MarioandAdrian_A from '../images/MarioandAdrian_A.jpg';
+import MarioandAdrian_b from '../images/MarioandAdrian_b.jpg';
+import '../css/AboutMe.css';
 
 function AboutMe() {
     return (

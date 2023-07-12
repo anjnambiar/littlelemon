@@ -1,8 +1,8 @@
-import Card from './Card';
-import './Highlights.css';
-import greek_salad from './images/greek_salad.jpg';
-import bruchetta from './images/bruchetta.svg';
-import lemon_dessert from './images/lemon_dessert.jpeg';
+import Card from './Card.js';
+import '../css/Highlights.css';
+import greek_salad from '../images/greek_salad.jpg';
+import bruchetta from '../images/bruchetta.svg';
+import lemon_dessert from '../images/lemon_dessert.jpeg';
 
 function Highlights() {
     return (

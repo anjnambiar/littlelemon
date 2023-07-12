@@ -1,6 +1,6 @@
 
-import restaurantfood from "./images/restaurantfood.jpg";
-import "./HeroSection.css"
+import restaurantfood from "../images/restaurantfood.jpg";
+import "../css/HeroSection.css"
 
 function HeroSection() {
     return (
