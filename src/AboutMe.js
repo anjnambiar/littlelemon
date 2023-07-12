@@ -20,8 +20,8 @@ function AboutMe() {
                      scelerisque ut.</article>
             </section>
             <section className="imageSection">
-                <img class="owner_img" id="img_a" src={MarioandAdrian_A} alt="Mario & Adrian"/>
                 <img class="owner_img" id="img_b" src={MarioandAdrian_b} alt="Mario & Adrian"/>
+                <img class="owner_img" id="img_a" src={MarioandAdrian_A} alt="Mario & Adrian"/>
             </section>
         </div>
     );

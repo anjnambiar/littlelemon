@@ -13,7 +13,7 @@ function HeroSection() {
                 <button>Reserve a Table</button>
             </section>
             <section className="photo">
-                <img src={restaurantfood} alt="restaurantfood"/>
+                <img id="hero_img"src={restaurantfood} alt="restaurantfood"/>
             </section>
         </div>
     );

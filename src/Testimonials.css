@@ -29,6 +29,7 @@
     grid-column: 1/ 12;
     grid-row: 1/1;
     text-align: center;
+    padding-top: 1em;
 }
 
 .testimonial_cards {

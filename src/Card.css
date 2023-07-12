@@ -4,11 +4,15 @@
     border-radius: 10px;
     background-color: #EDEFEE;
     margin: 10px;
+    border-radius: 16% 16% 0% 0%;
     box-shadow: 5px 10px 20px #ccc;;
 }
 
 #dish_image {
     grid-column: 1/ span 2;
+    width: 300px;
+    height: 200px;
+    border-radius: 16%;
 }
 
 .dish {

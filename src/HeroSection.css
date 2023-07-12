@@ -62,7 +62,7 @@ button {
     border-style: solid;
 }
 
-img {
+#hero_img {
    border-radius: 16%;
    width: 250px;
    max-height: 250px;
