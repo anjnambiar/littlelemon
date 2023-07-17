@@ -2,7 +2,7 @@ import '../css/Main.css';
 import HeroSection from './HeroSection.js';
 import Highlights from './Highlights.js';
 import Testimonials from './Testimonials.js';
-import AboutMe from './AboutMe';
+import AboutMe from './AboutMe.js';
 
 function Main() {
     return (

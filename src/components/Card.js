@@ -2,14 +2,14 @@ import '../css/Card.css';
 
 function Card(props) {
     return(
-        <div class="Card">
+        <div className="Card">
                 <img id="dish_image" src={props.dishImage} alt={props.imgAlt} />
-                <section class="dish">
-                    <h4 class="dishName"><b>{props.dishName}</b></h4>
-                    <p class="price">{props.dishPrice}</p>
+                <section className="dish">
+                    <h4 className="dishName"><b>{props.dishName}</b></h4>
+                    <p className="price">{props.dishPrice}</p>
                 </section>
-                <p class="description">{props.dishDescription}</p>
-                <section class="delivery">
+                <p className="description">{props.dishDescription}</p>
+                <section className="delivery">
                     <button>Order for delivery</button>
                 </section>
             </div>

@@ -1,6 +1,6 @@
 import logo_big from '../images/logo_big.png';
 import '../css/Footer.css';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 function Footer() {
     return (
@@ -8,7 +8,7 @@ function Footer() {
             <img id="footer_logo" src={logo_big} alt="Logo"/>
             <div class="footer_elem">
                 <div>
-                    <ul class="footer_list">
+                    <ul className="footer_list">
                         <h4>Navigation</h4>
                         <li>Home</li>
                         <li>About</li>
@@ -19,7 +19,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div>
-                    <ul class="footer_list">
+                    <ul className="footer_list">
                         <h4>Contact</h4>
                         <li>Phone Number</li>
                         <li>Email Address</li>
@@ -27,7 +27,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div>
-                    <ul class="footer_list">
+                    <ul className="footer_list">
                         <h4>Social Media</h4>
                         <li>Instagram</li>
                         <li>Facebook</li>

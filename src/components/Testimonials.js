@@ -4,21 +4,21 @@ import {AiFillStar} from 'react-icons/ai';
 
 function Testimonials() {
     return (
-        <div class="Testimonials">
+        <div className="Testimonials">
             <h2 id="testimonial_heading">Testimonials</h2>
-            <div class="testimonial_cards">
-                <Testimonial_Card name={"Eva Williams"} review={"The food was excellent ! The salad was well arranged"}/>
-                <Testimonial_Card name={"John Smith"} review={"Very neat and clean restaurant with warm service. Family friendly place!"}/>
-                <Testimonial_Card name={"Kathy Perry"} review={"Definitely would recommend and we would visit this place again"}/>
-                <Testimonial_Card name={"Allen Solly"} review={"A must visit place if you are in Chicago. Dont miss out !!!"}/>
+            <div className="testimonial_cards">
+                <TestimonialCard name={"Eva Williams"} review={"The food was excellent ! The salad was well arranged"}/>
+                <TestimonialCard name={"John Smith"} review={"Very neat and clean restaurant with warm service. Family friendly place!"}/>
+                <TestimonialCard name={"Kathy Perry"} review={"Definitely would recommend and we would visit this place again"}/>
+                <TestimonialCard name={"Allen Solly"} review={"A must visit place if you are in Chicago. Dont miss out !!!"}/>
             </div>
         </div>
     );
 }
 
-function Testimonial_Card(props){
+function TestimonialCard(props){
     return(
-        <div class="testimonial_details">
+        <div className="testimonial_details">
             <span className="starRating">
                 <AiFillStar/>
                 <AiFillStar/>

@@ -8,7 +8,11 @@
 }
 
 #logo_id {
-    margin-left: -1em;
+    grid-column: 1/ span 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 1em;
+    place-items: left;
 }
 
 @media (max-width: 600px) {

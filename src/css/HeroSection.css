@@ -67,3 +67,8 @@ button {
    width: 250px;
    max-height: 250px;
 }
+
+#reserveButton {
+    text-decoration: none;
+    color : black;
+}
