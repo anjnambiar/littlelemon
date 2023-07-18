@@ -31,3 +31,7 @@
 .footer_list {
     display: grid;
 }
+
+.footer_list h4 {
+    color: #F4CE14;
+}

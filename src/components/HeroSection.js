@@ -12,7 +12,7 @@ function HeroSection() {
                 <p>We are a family owned Mediterrean restaurant,
                     focused on traditional recipies  served with a modern twist.</p>
                 <button>
-                <Link id="reserveButton" to="/bookingPage">Reserve a Table</Link>
+                <Link to="/bookingPage" id="reserveButton">Reserve a Table</Link>
                     </button>
             </section>
             <section className="photo">

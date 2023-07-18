@@ -1,7 +1,7 @@
 import BookingForm from './BookingForm.js';
-import '../css/BookingPage.css';
 import { useReducer } from 'react';
 import { fetchAPI, submitAPI } from '../timeslotAPI.js';
+import '../css/BookingPage.css';
 
 
 const updateTimes = (availaleTimes, date) => {
@@ -20,7 +20,12 @@ function BookingPage() {
     const [availableTimes, dispatch] = useReducer(updateTimes,initializeTimes);
 
     return (
-        <div className="BookingPage">
+        <div className='bookingPage'>
+            <div className='bookingHeaderDiv'>
+                <div className="bookingHeader">
+                    <h2>Make your reservation here</h2>
+                </div>
+            </div>
             <BookingForm
                          availableTimes={availableTimes}
                          dispatch={dispatch}
@@ -30,4 +35,4 @@ function BookingPage() {
     );
 }
 
-export default  updateTimes; //initializeTimes;//BookingPage ;
+export default  BookingPage ;  //initializeTimes;//updateTimes;

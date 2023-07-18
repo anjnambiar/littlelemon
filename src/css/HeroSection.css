@@ -3,7 +3,7 @@
     display : grid;
     grid-template-columns: repeat(6,1fr);
     background-color: #495E57;
-    color: white;
+    color: #EDEFEE;
     text-align: left;
     padding-bottom: 10px;
 }
@@ -70,5 +70,5 @@ button {
 
 #reserveButton {
     text-decoration: none;
-    color : black;
+    color : #333333;
 }

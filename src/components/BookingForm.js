@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
-import {Link, useNavigate} from 'react-router-dom';
+import { useState } from "react";
+import {useNavigate} from 'react-router-dom';
+
 
 
 function BookingForm(props) {
@@ -9,7 +10,7 @@ function BookingForm(props) {
     const [eAddress, setEAddress] = useState("");
     const [phNum, setPhNum] = useState("");
     const [date, setDate] = useState("");
-    const [guests, setGuests] = useState("");
+    const [guests, setGuests] = useState(1);
     const [occasion, setOccasion] = useState("");
 
     const navigate = useNavigate();
@@ -34,48 +35,56 @@ function BookingForm(props) {
 
 
     return (
-        <div>
+        <div  className="formDiv">
             <form style = {{display:"grid",maxwidth:200,gap:20}}
-                  onSubmit={handleSubmit}>
-
+                  onSubmit={handleSubmit}
+                  className="bookingForm">
+                 <br></br>
                 <label htmlFor="fName">First Name</label>
                 <input type="text" id="fName" placeholder="First Name" required
                         value={fName} onChange={e=>setFName(e.target.value)}/>
 
+                <br></br>
                 <label htmlFor="lName">Last Name</label>
                 <input type="text" id="lName" placeholder="Last Name" required
                         value={lName} onChange={e=>setLName(e.target.value)}/>
 
+                <br></br>
                 <label htmlFor="eAddress">Email Address</label>
                 <input type="email" id="eAddress" placeholder="Email Address" required
                         value={eAddress} onChange={e=>setEAddress(e.target.value)}/>
 
+                <br></br>
                 <label htmlFor="phNum">Phone Number</label>
                 <input type="number" id="phNum" placeholder="Phone Number" required
                         value={phNum} onChange={e=>setPhNum(e.target.value)}/>
 
+                <br></br>
                 <label htmlFor="date">Choose date</label>
                 <input type="date" id="date" required
                         value={date} onChange ={handleDateChange}/>
 
+                <br></br>
                 <label htmlFor="time">Choose time</label>
                 <select id="time" required>
                     <option id="items"></option>
                 </select>
 
+                <br></br>
                 <label htmlFor="guests">Number of guests</label>
                 <input type="number" min="1" max="10" id="guests" required
                         value={guests} onChange={e=>setGuests(e.target.value)}/>
 
+                <br></br>
                 <label htmlFor="occasion">Occasion</label>
                 <select id="occasion" required
                         value={occasion} onChange={e=>setOccasion(e.target.value)}>
                     <option>None</option>
                     <option>Birthday</option>
                     <option>Anniversary</option>
-
                 </select>
-                     <input type="submit" value="Make Your reservation"/>
+                <br></br>
+                <input id="bookingButton" type="submit" value="Book your table"/>
 
             </form>
 
