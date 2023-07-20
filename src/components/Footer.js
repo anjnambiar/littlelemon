@@ -7,7 +7,7 @@ function Footer() {
         <div className="Footer">
             <img id="footer_logo" src={logo_big} alt="Logo"/>
             <div class="footer_elem">
-                <div>
+                <div className='footer_elem_div'>
                     <ul className="footer_list">
                         <h4>Navigation</h4>
                         <li>Home</li>
@@ -18,7 +18,7 @@ function Footer() {
                         <li>Login</li>
                     </ul>
                 </div>
-                <div>
+                <div className='footer_elem_div'>
                     <ul className="footer_list">
                         <h4>Contact</h4>
                         <li>Phone Number</li>
@@ -26,7 +26,7 @@ function Footer() {
                         <li>Location</li>
                     </ul>
                 </div>
-                <div>
+                <div className='footer_elem_div'>
                     <ul className="footer_list">
                         <h4>Social Media</h4>
                         <li>Instagram</li>

@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
-    place-items: left;
     text-align: center;
     background-color: #495E57;
     color: #EDEFEE;
@@ -10,9 +9,12 @@
 
 @media (max-width: 600px) {
     .Footer {
-        grid-template-columns: auto;
+        display: grid;
+        grid-template-columns: 400px;
         grid-template-rows: auto ;
+        justify-content: center;
     }
+
 }
 
 #footer_logo {
@@ -22,10 +24,12 @@
     grid-column: 1/ 2;
 }
 
+@media (min-width: 600px) {
 .footer_elem {
-    grid-column: 3/ 12;
+    grid-column: 3/12;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+}
 }
 
 .footer_list {

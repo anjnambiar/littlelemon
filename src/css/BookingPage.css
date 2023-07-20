@@ -41,6 +41,17 @@
     font-weight: bold;
 }
 
+@media (max-width:600px) {
+    .formDiv {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .bookingForm {
+       padding-left: 7em;
+    }
+}
+
 #bookingButton {
     background-color: #F4CE14;
     border-radius: 16px;
@@ -57,12 +68,50 @@
     height: 35em;
 }
 
-#confirmationMsg {
+.confirmationMsg {
     border: 0px;
     padding-top: 5em;
     text-align: center;
     font-size: 2em;
     font-family:'Karla';
     border-style: solid;
-    color: #495E57;;
+    color: #495E57;
+    font-weight: bold;
+}
+
+#changeMsg {
+    font-size: 1em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input , select , textarea{
+    background-color: #EDEFEE;
+    border-width: 1px;
+    height: 20px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+input:focus:invalid {
+    border-color: #900;
+    background-color: #fdd;
+}
+
+.reqLabel {
+    color:  rgb(250, 152, 107);
+    font-size: 9px;
+}
+
+.errorDiv {
+    color:  rgb(248, 8, 8);
+    font-size: 12px;
 }

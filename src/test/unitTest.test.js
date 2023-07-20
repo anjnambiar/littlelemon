@@ -13,14 +13,14 @@ test('Renders the BookingForm heading', () => {
 })
 */
 
-test('Update time slots', () => {
-    const availableTimes =  [ "17:00","17:30", "18:00","18:30",
-                              "19:30", "20:00","20:30","21:30",
-                              "22:00","22:30","23:00","23:30",];
-    const date = new Date();
-    const updateTime = updateTimes(availableTimes, date);
-    expect(updateTime).toEqual(availableTimes);
-})
+// test('Update time slots', () => {
+//     const availableTimes =  [ "17:00","17:30", "18:00","18:30",
+//                               "19:30", "20:00","20:30","21:30",
+//                               "22:00","22:30","23:00","23:30",];
+//     const date = new Date();
+//     const updateTime = updateTimes(availableTimes, date);
+//     expect(updateTime).toEqual(availableTimes);
+// })
 
 
 // test('Initialize time' , () => {

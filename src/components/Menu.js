@@ -2,7 +2,7 @@
 function Menu() {
     return (
         <div className="Menu">
-            <h1>This page is for MENU</h1>
+            <h1>MENU</h1>
         </div>
     );
 }

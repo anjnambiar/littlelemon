@@ -19,5 +19,12 @@
     .Header {
         grid-template-columns: auto;
         grid-template-rows: 100px ;
+        justify-content: center;
+    }
+    #logo_id {
+        padding-left: 2.5em;
+    }
+    .Header {
+        padding-left: 6em;
     }
 }
