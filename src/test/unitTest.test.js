@@ -1,17 +1,17 @@
 
 import { render, screen , renderHook} from "@testing-library/react";
 import BookingForm from '../components/BookingForm.js';
+import BookingPage from '../components/BookingPage.js';
 import updateTimes from '../components/BookingPage.js';
 import initializeTimes from '../components/BookingPage.js';
 import '@testing-library/jest-dom';
 
-/*
+
 test('Renders the BookingForm heading', () => {
-    render(<BookingForm />);
+     render(<BookingForm />);
     const headingElement = screen.getByText("First Name");
     expect(headingElement).toBeInTheDocument();
 })
-*/
 
 // test('Update time slots', () => {
 //     const availableTimes =  [ "17:00","17:30", "18:00","18:30",

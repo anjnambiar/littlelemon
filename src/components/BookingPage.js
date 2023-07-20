@@ -17,9 +17,9 @@ function BookingPage() {
     const navigate = useNavigate();
 
     const submitForm = (formData) => {
-        if( submitAPI(formData))
+    if( submitAPI(formData))
         navigate("/confirmed-booking");
-       }
+    }
 
     const [availableTimes, dispatch] = useReducer(updateTimes,initializeTimes);
 
