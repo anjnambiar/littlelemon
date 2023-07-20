@@ -2,6 +2,7 @@ import BookingForm from './BookingForm.js';
 import { useReducer } from 'react';
 import { fetchAPI, submitAPI } from '../timeslotAPI.js';
 import '../css/BookingPage.css';
+import {useNavigate} from 'react-router-dom';
 
 
 const updateTimes = (availaleTimes, date) => {
@@ -10,12 +11,15 @@ const updateTimes = (availaleTimes, date) => {
 
 const initializeTimes =  fetchAPI(new Date());
 
-const submitForm = (formData) => {
-  return submitAPI(formData);
-}
-
 
 function BookingPage() {
+
+    const navigate = useNavigate();
+
+    const submitForm = (formData) => {
+        if( submitAPI(formData))
+        navigate("/confirmed-booking");
+       }
 
     const [availableTimes, dispatch] = useReducer(updateTimes,initializeTimes);
 

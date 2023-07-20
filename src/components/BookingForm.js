@@ -1,6 +1,5 @@
 import { useState } from "react";
-import {useNavigate} from 'react-router-dom';
-import {Link} from 'react-router-dom';
+//import {useNavigate} from 'react-router-dom';
 
 function BookingForm(props) {
 
@@ -13,7 +12,7 @@ function BookingForm(props) {
     const [occasion, setOccasion] = useState("");
     const [comments, setComments] = useState("");
 
-   const navigate = useNavigate();
+   //const navigate = useNavigate();
 
     const handleDateChange = (e) => {
         setDate(e.target.value);
@@ -81,7 +80,7 @@ function BookingForm(props) {
        e.preventDefault();
        if(validateForm()) {
             if(props.submitForm(new FormData(document.reservationForm))) {
-               navigate("/confirmed-booking");
+              // navigate("/confirmed-booking");
             }
        }
      }
