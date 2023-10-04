@@ -1,1 +1,1 @@
-Little Lemon Restaurant is a React Front End Project.
+Little Lemon Restaurant, a React Front End Project.
